@@ -6,20 +6,21 @@
             <ul>
                 <li>
                     <p><i class="fas fa-map-marker-alt"></i>
-                        Zoo de [Nom du Zoo] <br>
-                        [Adresse complète] <br>
-                        [Ville, Code Postal] <br>
+                        Zoo d'Arcadia<br>
+                        123 Rue des Aventuriers, <br>
+                        Ville des Merveilles<br>
+                        012541 France<br>
                     </p>
                 </li>
                 <li>
                     <p><i class="fas fa-phone"></i> :
-                        [Numéro de téléphone]</p>
+                        05 78 89 12 23</p>
                 </li>
                 <li>
-                    <p><i class="fas fa-envelope"></i> :[Adresse email]</p>
+                    <p><i class="fas fa-envelope"></i>: arcadiazoo@lion.fr </p>
                 </li>
                 <li>
-                    <p><i class="fas fa-hashtag"></i> :[<br> Facebook, Instagram, Twitter, YouTube]</p>
+                    <p><i class="fas fa-hashtag"></i> : Facebook, Instagram, Twitter, YouTube</p>
                 </li>
             </ul>
         </div>
@@ -27,9 +28,9 @@
         <div>
             <h4>Horaires d'Ouverture</h4>
             <ul>
-                <li>Lundi - Vendredi : [Heures d'ouverture]</li>
-                <li>Samedi - Dimanche : [Heures d'ouverture]</li>
-                <li>Jours fériés : [Heures d'ouverture spéciales ou fermeture]</li>
+                <li>Lundi - Vendredi : 9h - 19h</li>
+                <li>Samedi - Dimanche : 9h - 14h</li>
+                <li>Jours fériés : Fermé</li>
             </ul>
             <br>
             <h4>
@@ -37,24 +38,20 @@
 
             </h4>
             <ul>
-                <li>[Mentions Légales]</li>
-                <li>[Politique de Confidentialité]</li>
-                <li>[Conditions Générales de Vente]</li>
+                <li>Mentions Légales</li>
+                <li>Politique de Confidentialité</li>
             </ul>
         </div>
         <!-- Plan Site -->
         <div>
             <h4>Plan du Site</h4>
             <ul>
-                <li>[Accueil]</li>
-                <li>[Planifiez Votre Visite]</li>
-                <li>[Rencontres Animales]</li>
-                <li>[Zones Thématiques]</li>
-                <li>[Événements et Spectacles]</li>
-                <li>[Conservation et Durabilité]</li>
-                <li>[Éducation et Sensibilisation]</li>
-                <li>[Boutique en Ligne]</li>
-                <li>[Contact]</li>
+
+                <li><a href=".\index_zoo.php">Accueil</a></li>
+                <li><a href=".\page_animaux.php">Animaux</a></li>
+                <li><a href=".\page_habitats.php">Habitats</a></li>
+                <li><a href=".\page_services.php">Services</a></li>
+                <li><a href=".\page_contact.php">Contacts</a></li>
             </ul>
         </div>
     </div>

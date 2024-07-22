@@ -22,9 +22,9 @@
                     Pour toute information ou demande spécifique, n'hésitez pas à nous contacter par les moyens suivants :
                 </p>
                 <ul>
-                    <li>Adresse : 123 Rue des Aventuriers, Ville des Merveilles, Pays</li>
-                    <li>Téléphone : +123 456 789</li>
-                    <li>Email : contact@zoofauneemerveillee.com</li>
+                    <li>Adresse : 123 Rue des Aventuriers, Ville des Merveilles</li>
+                    <li>Téléphone : 05 78 89 12 23</li>
+                    <li>Email : arcadiazoo@lion.fr</li>
                 </ul>
             </div>
         </div>
