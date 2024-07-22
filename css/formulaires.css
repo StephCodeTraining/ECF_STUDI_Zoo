@@ -1,0 +1,65 @@
+div#modalAvis form {
+  color: black;
+}
+#btnAvis {
+  float: right;
+  margin: 10px;
+}
+.btnClose {
+  font-size: 30px;
+}
+label {
+  text-align: left;
+}
+.form-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* width: 300px; */
+}
+form div.row {
+  width: 100%;
+}
+legend {
+  font-style: italic;
+  font-size: 18px;
+}
+label {
+  display: block;
+  font-size: 16px;
+  padding: 3%;
+}
+label.inline-label {
+  display: inline-block;
+}
+fieldset {
+  border: 0.5px solid lightgray;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 10px;
+}
+input,
+select,
+textarea {
+  display: inline-block;
+  color: black;
+  margin: 1%;
+  width: auto;
+}
+input[type="text"],
+input[type="email"] {
+  width: auto;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+form input[type="radio"],
+form input[type="checkbox"],
+form input[type="submit"],
+form input[type="date"],
+select,
+button {
+  cursor: pointer;
+}

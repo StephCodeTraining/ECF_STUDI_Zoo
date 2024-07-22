@@ -1,0 +1,263 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background: url("../ressources/header_footer/wallpaperHeader.jpg") fixed
+    center/cover;
+}
+/* ----------------------------------------------------------------------------------------------------- container Display */
+/* ROW */
+header,
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+section.row {
+  width: 100%;
+  margin: 10px;
+  padding: 20px;
+}
+div.row {
+  margin: 3px;
+  padding: 5px;
+}
+/* COL */
+body,
+main,
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+/* FLOAT */
+.fltR {
+  float: right;
+}
+.fltL {
+  float: left;
+}
+/* ----------------------------------------------------------------------------------------------------- Header - Footer */
+header {
+  width: 100%;
+  height: 350px;
+  justify-content: space-between;
+}
+footer {
+  background-color: rgba(0, 0, 0, 0.521);
+  color: white;
+  width: 70%;
+  margin-bottom: 30px;
+}
+/* ----------------------------------------------------------------------------------------------------- Main */
+main {
+  width: 90%;
+  margin: auto;
+}
+div.acc {
+  /* max-width: 45%; */
+  background-color: rgba(255, 255, 255, 0.623);
+  margin: 1%;
+  /* height: 100%; */
+  padding: 1%;
+  border-radius: 10px;
+  box-shadow: gray 5px 5px 7px;
+}
+
+/* ----------------------------------------------------------------------------------------------------- Logo */
+.logo {
+  padding: 10px;
+  max-width: 160px;
+}
+.logo img {
+  border-radius: 50%;
+  width: 100%;
+}
+/* ----------------------------------------------------------------------------------------------------- Menu */
+.ctnr_menu {
+  width: 90%;
+}
+menu {
+  /* height: 3vw; */
+  color: white;
+}
+menu ul {
+  list-style: none;
+}
+menu ul li {
+  background-color: rgba(0, 0, 0, 0.274);
+  border: white solid 2px;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
+}
+menu li a {
+  font-size: 20px;
+  text-decoration: none;
+}
+menu li:hover {
+  background-color: rgba(255, 255, 255, 0.397);
+  color: black;
+  text-shadow: black 1px 1px 2px;
+}
+menu li a:visited {
+  color: white;
+}
+
+/* ----------------------------------------------------------------------------------------------------- Font-Size */
+h1.nom_zoo {
+  font-size: 10vw;
+}
+h1 {
+  font-size: 5vw;
+  letter-spacing: 3vw;
+  color: white;
+  text-shadow: black 2px 2px 2px;
+}
+h2 {
+  font-size: 30px;
+}
+p,
+h2,
+h3,
+h4 {
+  margin-bottom: 10px;
+}
+/* ----------------------------------------------------------------------------------------------------- Paragraph */
+p.service {
+  max-width: 80%;
+}
+p {
+  margin-top: 3px;
+  max-width: 80%;
+}
+/* ----------------------------------------------------------------------------------------------------- Button */
+.connect {
+  padding: 10px;
+  margin-right: 10px;
+}
+button {
+  background-color: black;
+  border: white solid 2px;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: white;
+  color: black;
+  border: black solid 2px;
+}
+button a:visited {
+  color: white;
+}
+button:hover a:visited {
+  color: black;
+}
+.ctnr_btn_connect {
+  height: 30%;
+}
+/* ----------------------------------------------------------------------------------------------------- MModal Log */
+form {
+  padding: 10px;
+  background-color: #fefefe;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px white;
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  margin: 20% auto;
+}
+
+.closeBtn {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closeBtn:hover,
+.closeBtn:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* ----------------------------------------------------------------------------------------------------- Avis Visiteurs */
+.valid {
+  border-radius: 5px;
+  padding: 10px;
+}
+.avis {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  box-shadow: grey 2px 2px 4px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.avis h3 {
+  margin-right: 10px;
+}
+.avis {
+  /* width: 30%; */
+}
+
+/* ----------------------------------------------------------------------------------------------------- image Animaux */
+.img_animal {
+  border-radius: 40%;
+  width: 100%;
+  height: 15vw;
+}
+.img_animal_small {
+  border-radius: 50%;
+  width: 70%;
+  height: 7vw;
+}
+.ctnr_animaux {
+  flex-wrap: wrap;
+}
+.ctnr_animaux div.acc {
+  width: 25vw;
+  min-width: 250px;
+}
+
+.animal_desc {
+  display: none;
+}
+.date {
+  font-size: 10px;
+}
+/* ----------------------------------------------------------------------------------------------------- image habitats */
+.img_habitat {
+  width: 50%;
+  height: 24vw;
+  border-radius: 10px;
+}
+.infos_habitat {
+  overflow: auto;
+  max-height: 23vw;
+  font-size: 1.7vw;
+  line-height: 2vw;
+  padding: 10px;
+  width: 30%;
+
+  background-color: rgba(240, 248, 255, 0.363);
+}
